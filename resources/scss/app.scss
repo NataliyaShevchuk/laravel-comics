@@ -7,7 +7,11 @@
     --lighter-grey: #303030;
 }
 
+$font-text: 'Roboto Condensed', sans-serif; 
 
+body{
+    font-family: $font-text;
+}
 
 .bg-blue{
     background-color: var(--primary-color);
@@ -75,6 +79,18 @@ footer{
     position: relative;
 }
 
+.footer-banner{
+    background-color: var(--dark-grey);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
 .col-6{
     display: flex;
     flex-wrap: wrap;
@@ -109,4 +125,41 @@ footer{
 
 .pad {
     padding: 2rem 0;
+}
+
+.img-bg-box{
+    margin: -5rem;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-box-footer{
+    display: flex;
+    justify-content: center;
+    a{
+        padding: .6rem;
+    }
+}
+
+.h2-follow-us{
+    color: var(--primary-color);
+    padding: 0 1rem;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
