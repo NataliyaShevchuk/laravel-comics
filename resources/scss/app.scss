@@ -4,13 +4,13 @@
     --primary-color: #0282F9;
     --almost-black: #1C1C1C;
     --dark-grey: #303030;
-    --lighter-grey: #303030;
+    --lighter-grey: #a0a0a0;
+    --font-text: 'Roboto Condensed', sans-serif; 
 }
 
-$font-text: 'Roboto Condensed', sans-serif; 
 
 body{
-    font-family: $font-text;
+    font-family: var(--font-text);
 }
 
 .bg-blue{
@@ -74,7 +74,7 @@ main {
 }
 
 footer{
-    background-image: url("../image/footer-bg.jpg");
+    background-image: url("../images/footer-bg.jpg");
     object-fit: cover;
     position: relative;
 }
@@ -107,7 +107,7 @@ footer{
     
                 a{
                     text-decoration: none;
-                    color: $text-color;
+                    color: var(--lighter-grey);
                     font-size: 14px;
 
                 }

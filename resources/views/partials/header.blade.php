@@ -19,7 +19,7 @@
         <div class="container">
         <div class="d-flex justify-content-between align-items-center">
                 <div>
-                    <img class="img-fluid" src="{{ asset('resources/images/dc-logo.png') }}" alt=""></a>
+                    <img class="img-fluid" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt=""></a>
                 </div>
                 <div class="nav-list">
                     <ul class="d-flex gap-4 fw-bold">

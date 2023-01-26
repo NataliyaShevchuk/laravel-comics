@@ -1,6 +1,4 @@
-@extends('layouts.homepage')
 
-@section('footer')
 <!-- Footer  -->
 <footer>
     <div class="container pad">
@@ -119,7 +117,7 @@
             </div>
             <div class="col-6 bg-img">
                 <div class="img-bg-box">
-                    <img src="{{ asset('resources/image/dc-logo-bg.png')}}" alt="">
+                    <img src="{{Vite::asset('resources/images/dc-logo-bg.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -138,18 +136,14 @@
                         <h3>FOLLOW US</h3>
                     </div>
                     <div class="img-box-footer">
-                        <a href="#"><img src="{{ asset('resources/image/footer-facebook.png')}}" alt=""></a>
-                        <a href="#"><img src="{{asset('resources/image/footer-twitter.png')}}" alt=""></a>
-                        <a href="#"><img src="{{asset('resources/image/footer-youtube.png')}}" alt=""></a>
-                        <a href="#"><img src="{{asset('resources/image/footer-pinterest.png')}}" alt=""></a>
-                        <a href="#"><img src="{{asset('resources/image/footer-periscope.png')}}" alt=""></a>
+                        <a href="#"><img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt=""></a>
+                        <a href="#"><img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt=""></a>
+                        <a href="#"><img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt=""></a>
+                        <a href="#"><img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt=""></a>
+                        <a href="#"><img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-@endsection
