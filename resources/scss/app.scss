@@ -1,1 +1,112 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+:root{
+    --primary-color: #0282F9;
+    --almost-black: #1C1C1C;
+    --dark-grey: #303030;
+    --lighter-grey: #303030;
+}
+
+
+
+.bg-blue{
+    background-color: var(--primary-color);
+}
+
+.color-blue{
+    color: var(--primary-color);
+}
+
+.color-dark-grey{
+    color: var(--almost-black);
+}
+
+.bg-dark-grey{
+    background-color: var(--almost-black);
+}
+
+a{
+    text-decoration: none;
+}
+
+.list-item {
+    list-style: none;
+}
+
+header .list-item a:hover {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    padding-bottom: 3rem;
+}
+
+.jumbotron {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    flex-grow: 0;
+    bottom: 2rem;
+
+}
+
+// card scss 
+main {
+    background-color: var(--almost-black);
+
+    .card-img-top {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card-img-top:hover {
+        opacity: 50%;
+        cursor: pointer;
+    }
+}
+
+.my-img {
+    display: block;
+    width: 50px;
+}
+
+footer{
+    background-image: url("../image/footer-bg.jpg");
+    object-fit: cover;
+    position: relative;
+}
+
+.col-6{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    .ul-container{
+
+        ul{
+            padding-bottom: 1rem;
+            padding-right: 1rem;
+            li{
+                list-style: none;
+                margin: .3rem 0;
+    
+                a{
+                    text-decoration: none;
+                    color: $text-color;
+                    font-size: 14px;
+
+                }
+    
+                h2{
+                    color: white;
+                    padding-bottom: 1rem;
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+
+}
+
+.pad {
+    padding: 2rem 0;
+}
